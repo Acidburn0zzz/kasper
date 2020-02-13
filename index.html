@@ -1,64 +1,255 @@
 ---
 layout: default
-title: Home
+title: index
 cover: false
-about: 'about.html'
+about: 'index.html'
 ---
 
-<header class="main-header {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
-    <nav class="main-nav overlay clearfix">
-            {% if page.logo %}
-                <a class="blog-logo" href="{{ site.baseurl }}">
-                    <img src="{{ page.logo }}" alt="Blog Logo" />
-                </a>
-            {% endif %}
-        <a class="subscribe-button icon-feed" href="{{ site.baseurl }}feed.xml">Subscribe</a>
-    </nav>
-    <div class="vertical">
-        <div class="main-header-content inner">
-            <h1 class="page-title">{{ site.name }}</h1>
-            <h2 class="page-description">
-                {% if site.description %} {{ site.description }}. {% endif %}
-                {% if page.about %} <a href='{{ site.baseurl }}{{ page.about }}'> About me </a> {% endif %}
-            </h2>
-        </div>
-    </div>
-    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
-</header>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Site Map</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0,maximum-scale=5.0">
+<link type="text/css" rel="stylesheet" href="https://freefind.com/site.00.css">
+<style>
+/* search results page - start */
+.itemSeparator {
+	border-top:1px solid black;
+	margin:2em 5em;
+}
+.search-headline {
+	display:none;
+}
+.search-line {
+	display:none;
+}
+.search-form-cell {
+	display:none;
+}
+.search-nav-form-table:first-child {
+	display:none;
+}
+.search-nav-form-table {
+	margin:3em auto 0em auto;
+}
+td.search-nav-cell > font {
+	font-size:16px;
+}
+.search-results table {
+	border-collapse:separate;
+}
+.search-results td {
+	font-size:10pt;
+}
+.search-results {
+	font-size:10pt;
+}
+.search-results a {
+	font-size:12pt;
+}
+.search-results > small > i {
+	color:green;
+	font-size:9.75pt;
+}
+.search-footer-table {
+	display:none;
+}
+.search-form > p + p + p {
+	text-align:center;
+}
+.search-form input[type="text"] {
+	width:80%;
+	box-sizing:border-box;
+}
+.search-form input[type="submit"] {
+	padding-left:1em;
+	padding-right:1em;
+	margin-top:1em;
+}
+.search-form select {
+	color:#606060;
+}
+/* search results page - end */
+</style>
+</head>
+
+<body onload="$page.loadedSR();">
+<div style="text-align:center">
+
+<main class="content" role="main">
+
+<TABLE id="content" style="visibility:hidden;"><tr><td>
 
 
-<main id="content" class="content" role="main">
+	<TABLE id="contentSpacer"><tr><td>
 
+		<div class=topsearch id=top>
+			<form id=sform action="https://search.freefind.com/find.html" method="GET" accept-charset="utf-8" onsubmit="$page.srch(this);">
+			<table><tr><td>
+				<input type="hidden" name="si" value="3225682">
+				<input type="hidden" name="pid" value="r">
+				<input type="hidden" name="n" value="0"><input type="hidden" name="naq" value="1">
+				<input type="hidden" name="_charset_" value="">
+				<input type="hidden" name="bcd" value="&#247;">
+				<input type="text" name="query" value="" aria-label="text to search for">
+			</td><td>
+				<input type="submit" value="Search">
+				<select name=s aria-label="area to search">
+					<option value="all">All</option>
+					<option value="library">Documentation</option>
+					<option value="">FAQ &amp; Reference</option>
+				</select>
+			</td></tr></table>
+			</form>
+		</div>
 
-    <div class="extra-pagination inner">
-        {% include pagination.html %}
-    </div>
+		<!--content-->
+			<!--start inner-->
+	<b><font class=search-headline face="arial,verdana,geneva,lucida" size="-1">Site Map</font></b>
+    <table bgcolor="#000000" class=search-line width="100%" border=0 cellspacing=0 cellpadding=0>
+	<tr>
+		<td >
+			<img src="//search.freefind.com/img/onebyone.gif" alt="" width=1 height=1></td>
+	</tr>
+    </table>
+    <table class=search-header-table width="100%" border=0 cellspacing=0 cellpadding=0>
+		<tr>
+			<td align="right" class=search-page-links>
+				<font class=search-page-links face="arial,verdana,geneva,lucida" size="2">
+				<a class="search-page-links" href="https://search.freefind.com/siteindex.html?id=3225682&amp;sbv=j2&amp;ics=1">index</a>  &nbsp;&nbsp;<a class="search-page-links" href="https://search.freefind.com/find.html?id=3225682&amp;sbv=j2&amp;ics=1&amp;pid=a">advanced&nbsp;search</a> &nbsp;&nbsp;</font>
+			</td>
+		</tr>
+	</table>	
+	<br>
+	<div class=search-sitemap><font class=search-sitemap face="arial,verdana,geneva,lucida,ubuntu" size="-1"><HR>
+<A target="_top" HREF="https://www.freefind.com/">Site Search Engine, Free Versions - FreeFind.com</A>
+<UL TYPE=SQUARE>
+<LI><A target="_top" HREF="https://www.freefind.com/about.html">A propos de FreeFind.com</A>
+<LI><A target="_top" HREF="https://www.freefind.com/library/">Library</A>
+<UL TYPE=DISC>
+<LI><A target="_top" HREF="https://www.freefind.com/library/howto/style/">Changer la police et Utiliser les Style Sheets. Aide</A>
+<LI><A target="_top" HREF="https://www.freefind.com/library/ref/cc/">Control Center Aide/A>
+<UL TYPE=CIRCLE>
+<LI><A target="_top" HREF="https://www.freefind.com/library/ref/cc/admin.html">Administration Aide</A>
+<LI><A target="_top" HREF="https://www.freefind.com/library/ref/cc/buildindex.html">Build Index Aide</A>
+<LI><A target="_top" HREF="https://www.freefind.com/library/ref/cc/customize.html">Customize Aide</A>
+<LI><A target="_top" HREF="https://www.freefind.com/library/ref/cc/html.html">HTML Aide</A>
+<LI><A target="_top" HREF="https://www.freefind.com/library/ref/cc/library.html">Library Aide</A>
+<LI><A target="_top" HREF="https://www.freefind.com/library/ref/cc/reports.html">Reports Aide</A>
+<LI><A target="_top" HREF="https://www.freefind.com/library/ref/cc/subscribe.html">Subscribe Aide</A></UL>
+<LI><A target="_top" HREF="https://www.freefind.com/library/tut/datasearch/">Données de recherches configurations et réglages Aide</A>
+<UL TYPE=CIRCLE>
+<LI><A target="_top" HREF="https://www.freefind.com/dsdemo/index.html">Bridges for Sale</A>
+<LI><A target="_top" HREF="https://www.freefind.com/datasearch.html">Data Search</A></UL>
+<LI><A target="_top" HREF="https://www.freefind.com/library/ref/faq/">FAQ</A>
+<UL TYPE=CIRCLE>
+<LI><A target="_top" HREF="https://www.freefind.com/library/ref/faq/results.html">Displayed Search Results</A>
+<LI><A target="_top" HREF="https://www.freefind.com/library/ref/faq/email.html">Email Questions</A>
+<UL TYPE=SQUARE>
+<LI><A target="_top" HREF="https://freefind.com/iforgot.html">Recovering your password and account information</A></UL>
+<LI><A target="_top" HREF="https://www.freefind.com/library/ref/faq/errormsgs.html">Error Messages</A>
+<LI><A target="_top" HREF="https://www.freefind.com/library/ref/faq/hosts.html">Host/ISP-specific Issues</A>
+<LI><A target="_top" HREF="https://www.freefind.com/library/ref/faq/spidering.html">Indexing (Spidering)</A>
+<LI><A target="_top" HREF="https://www.freefind.com/library/ref/faq/doesnotwork.html">It Does Not Work</A>
+<LI><A target="_top" HREF="https://www.freefind.com/library/ref/faq/login.html">Login Questions</A>
+<UL TYPE=SQUARE>
+<LI><A target="_top" HREF="https://freefind.com/iforgot.html">Recovering your password and account information</A></UL>
+<LI><A target="_top" HREF="https://www.freefind.com/library/ref/faq/frames.html">My Site has Frames...</A>
+<LI><A target="_top" HREF="https://www.freefind.com/library/ref/faq/other.html">Other Questions</A>
+<LI><A target="_top" HREF="https://www.freefind.com/library/ref/faq/prefaq.html">Pre-signup Questions</A>
+<UL TYPE=SQUARE>
+<LI><A target="_top" HREF="https://freefind.com/demos.html">Example Customers</A>
+<LI><A target="_top" HREF="https://freefind.com/useremails.html">User Testimonials</A></UL>
+<LI><A target="_top" HREF="https://www.freefind.com/library/ref/faq/setup.html">Setup</A>
+<LI><A target="_top" HREF="https://www.freefind.com/library/ref/faq/sitemap.html">Site Map</A>
+<LI><A target="_top" HREF="https://www.freefind.com/library/ref/faq/toofew.html">Too Few Pages Indexed</A>
+<LI><A target="_top" HREF="https://www.freefind.com/library/ref/faq/toomany.html">Too Many Pages Indexed</A>
+<LI><A target="_top" HREF="https://www.freefind.com/library/ref/faq/whatsnew.html">What's New Page</A></UL>
+<LI><A target="_top" HREF="https://www.freefind.com/library/ref/glossary/">Glossary</A>
+<UL TYPE=CIRCLE>
+<LI><A target="_top" HREF="https://freefind.com/library/ref/glossary/index.html">Glossary</A></UL>
+<LI><A target="_top" HREF="https://www.freefind.com/library/howto/nsb/">Hiding the Search Panel</A>
+<LI><A target="_top" HREF="https://www.freefind.com/library/tut/howitworks/">How It Works</A>
+<LI><A target="_top" HREF="https://www.freefind.com/library/howto/exclude/">How to Exclude Pages</A>
+<LI><A target="_top" HREF="https://www.freefind.com/library/howto/passwords/">How to Index Password Protected Pages</A>
+<LI><A target="_top" HREF="https://www.freefind.com/library/howto/sitemap/">How to Restructure your Site Map</A>
+<LI><A target="_top" HREF="https://www.freefind.com/library/howto/frames/">How to Setup your Framed Site</A>
+<LI><A target="_top" HREF="https://www.freefind.com/library/howto/imagesource/">How to Use Images</A>
+<LI><A target="_top" HREF="https://www.freefind.com/library/howto/robots/">How to use Robots.txt</A>
+<LI><A target="_top" HREF="https://www.freefind.com/library/howto/sections/">How to Use Sections</A>
+<LI><A target="_top" HREF="https://www.freefind.com/library/howto/templates/">How To Use Templates</A>
+<LI><A target="_top" HREF="https://www.freefind.com/library/ref/tagref/">HTML Tag Reference</A>
+<UL TYPE=CIRCLE>
+<LI><A target="_top" HREF="https://freefind.com/library/ref/tagref/index.html">HTML Tag Reference</A></UL>
+<LI><A target="_top" HREF="https://www.freefind.com/library/ref/logref/">Log file reference</A>
+<LI><A target="_top" HREF="https://www.freefind.com/library/tut/pagesearch/">Page Search Setup</A>
+<LI><A target="_top" HREF="https://www.freefind.com/library/ref/relref/">Relevance scoring reference</A>
+<LI><A target="_top" HREF="https://www.freefind.com/library/ref/iformat/">Result item format</A>
+<LI><A target="_top" HREF="https://www.freefind.com/library/howto/forums/">Searching Forums</A>
+<LI><A target="_top" HREF="https://www.freefind.com/library/howto/nonenglish/">Setup for Non-English Languages</A>
+<LI><A target="_top" HREF="https://www.freefind.com/library/howto/dates/">Using document dates</A>
+<LI><A target="_top" HREF="https://www.freefind.com/library/ref/xmlref/">XML API Reference</A></UL>
+<LI><A target="_top" HREF="https://www.freefind.com/details.html">Search engine features</A>
+<UL TYPE=DISC>
+<LI><A target="_top" HREF="https://www.freefind.com/create-sitemap.html">Site Map Generation</A></UL>
+<LI><A target="_top" HREF="https://www.freefind.com/plans.html">Site search subscription</A>
+<UL TYPE=DISC>
+<LI><A target="_top" HREF="https://www.freefind.com/serviceagreement.html">Service Agreement</A></UL>
+<LI><A target="_top" HREF="https://www.freefind.com/policy.html">Terms and Conditions</A></UL><P>
+<HR>
+</font></div>
+	<table class=search-footer-table width="100%">
+	<tr>
+		<td colspan=2 align="right" class=search-page-links>
+			<font class=search-page-links face="arial,verdana,geneva,lucida" size="2" >
+			<a class="search-page-links" href="https://search.freefind.com/siteindex.html">index</a>  &nbsp;&nbsp;<a class="search-page-links" href="https://search.freefind.com/find.html">advanced&nbsp;search</a> &nbsp;&nbsp;</font>
+		</td>
+	</tr>
+	</table>
+	<P>
+	
+	</FORM>				
+	</TD></TR></TABLE>
 
-    {% for post in paginator.posts %}
-
-    <article class="post">
-        <header class="post-header">
-            <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        </header>
-        <section class="post-excerpt">
-            {{ post.excerpt }} <a class="read-more" href="{{ post.url }}">&raquo;</a>
-        </section>
-        <footer class="post-meta">
-            {% if site.author %}
-                <img class="author-thumb" src="/assets/images/profile.png" alt="Author's profile picture" nopin="nopin" />
-                {{ site.author }}
-            {% endif %}
-            {% if post.categories.size > 0 %} 
-                {{ post.categories | array_to_sentence_string | prepend: 'on ' }} 
-            {% endif %}
-            <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
-                {{ post.date | date_to_string }}
-            </time> 
-        </footer>
-    </article>
-
-    {% endfor %}
-
-    {% include pagination.html %}
-
+</td></tr></table>
 </main>
+
+</div>	
+<script src="https://freefind.com/site.searchresults.00.js" async></script>
+<script src="https://freefind.com/site.searchresults.01.js" async></script>
+<script src="https://freefind.com/site.searchresults.10.js" async></script>
+<script src="https://freefind.com/site.searchresults.11.js" async></script>
+<script src="https://freefind.com/site.searchresults.00.js" sync></script>
+<script src="https://freefind.com/site.searchresults.01.js" sync></script>
+<script src="https://freefind.com/site.searchresults.10.js" sync></script>
+<script src="https://freefind.com/site.searchresults.11.js" sync></script>
+<script src="https://freefind.com/site.searchresults.00.js" incache></script>
+<script src="https://freefind.com/site.searchresults.01.js" incache></script>
+<script src="https://freefind.com/site.searchresults.10.js" incache></script>
+<script src="https://freefind.com/site.searchresults.11.js" incache></script>
+<script src="https://freefind.com/site.searchresults.00.js" gencache></script>
+<script src="https://freefind.com/site.searchresults.01.js" gencache></script>
+<script src="https://freefind.com/site.searchresults.10.js" gencache></script>
+<script src="https://freefind.com/site.searchresults.11.js" gencache></script>
+<script src="https://freefind.com/site.searchresults.00.js" io></script>
+<script src="https://freefind.com/site.searchresults.01.js" io></script>
+<script src="https://freefind.com/site.searchresults.10.js" io></script>
+<script src="https://freefind.com/site.searchresults.11.js" io></script>
+<script src="https://freefind.com/site.searchresults.00.js" amp></script>
+<script src="https://freefind.com/site.searchresults.01.js" amp></script>
+<script src="https://freefind.com/site.searchresults.10.js" amp></script>
+<script src="https://freefind.com/site.searchresults.11.js" amp></script>
+<script src="https://freefind.com/site.searchresults.00.js" requestdb></script>
+<script src="https://freefind.com/site.searchresults.01.js" requestdb></script>
+<script src="https://freefind.com/site.searchresults.10.js" requestdb></script>
+<script src="https://freefind.com/site.searchresults.11.js" requestdb></script>
+<script src="https://freefind.com/site.searchresults.00.js" meta-engine></script>
+<script src="https://freefind.com/site.searchresults.01.js" meta-engine></script>
+<script src="https://freefind.com/site.searchresults.10.js" meta-engine></script>
+<script src="https://freefind.com/site.searchresults.11.js" meta-engine></script>
+<script src="https://freefind.com/site.searchresults.00.js" return.var/logs/all></script>
+<script src="https://freefind.com/site.searchresults.01.js" return.var/logs/all></script>
+<script src="https://freefind.com/site.searchresults.10.js" return.var/logs/all></script>
+<script src="https://freefind.com/site.searchresults.11.js" return.var/logs/all></script>
+</body>
+</html>
