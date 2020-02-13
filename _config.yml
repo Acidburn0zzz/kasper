@@ -14,3 +14,5 @@ gems: [jekyll-paginate]
 # Details for the RSS feed generator
 url:            'blog url'
 author:         'Your Name'
+
+theme: jekyll-theme-slate
